@@ -1,0 +1,260 @@
+/* -------------header------------------ */
+#headerWrap {
+  height: 159px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background: white;
+}
+
+#headerLogoWrap {
+  height: 97px;
+  width: 100%;
+  border: 0;
+}
+
+#headerMenuWrap {
+  height: 62px;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgb(224, 224, 224);
+  border-bottom: 2px solid lightblue;
+}
+
+#headerLogoInnerWrap {
+  height: 100%;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0px;
+}
+
+#headerLogoLeft {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+#headerLogoMiddle {
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+  vertical-align: top;
+  text-align: center;
+}
+
+#headerLogoRight {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 30%;
+}
+
+#headerLogoImageBox {
+  height: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#siteLogoImage {
+  height: 100%;
+}
+
+#headerMenuInnerWrap {
+  width: 1280px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0px;
+}
+
+#headerMenuInnerWrap span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#sideBarButtonBox {
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  width: 60px;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
+  vertical-align: top;
+}
+#sideBarButtonBox img {
+  margin-top: 11px;
+}
+
+.headerMenuSet {
+  display: inline-block;
+  text-align: center;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#upperContentWrap1 {
+  margin-top: 3px;
+}
+
+#mainBannerWrap {
+  height: 513px;
+  background-image: url(../img/e4c75e05e42e5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ----------------------------- */
+body {
+  padding-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.board-title {
+  margin-top: 50px;
+  margin-left: 50px;
+  position: relative;
+  font-size: 20px;
+}
+.view_title {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.board_summary {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  width: 100%;
+  position: relative;
+  margin: 30px 30px 30px 30px;
+  font-size: 13px;
+  display: inline-block;
+}
+.left {
+  float: left;
+  padding: 8px 0 20px;
+  display: table;
+  margin-left: 20px;
+}
+.avatar {
+  display: table-cell;
+  padding-right: 16px;
+  vertical-align: top;
+}
+.avatar_image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  border: 0;
+}
+.author {
+  display: table-cell;
+  vertical-align: middle;
+  overflow: hidden;
+  line-height: 1.2;
+  text-align: left;
+  font-size: 12px;
+  width: 98%;
+}
+.writer {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+}
+.board_name {
+  display: inline-block;
+  margin-right: 5px;
+  color: #757575;
+}
+.date {
+  display: inline-block;
+  margin-right: 5px;
+}
+.hit {
+  display: inline-block;
+}
+.post_body_img1 {
+  text-align: center;
+}
+.post_body_img2 {
+  text-align: center;
+}
+.post_body_img3 {
+  text-align: center;
+}
+.post_body_img4 {
+  text-align: center;
+}
+.post_body_img5 {
+  text-align: center;
+}
+.list_tap {
+  display: block;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  width: 100%;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 12px;
+  margin-left: 30px;
+  margin-top: 100px;
+  text-align: left;
+}
+.icon_down {
+  position: absolute;
+  transform: translate(-110%, -10%);
+}
+.post_golist {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+/* ----------footer------------------- */
+/* footer */
+footer {
+  bottom: 0px;
+  margin: 70px 0 0 0;
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/footerLogo.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 150px center;
+  background-color: #333;
+}
+
+footer #copy {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+  margin: 50px 0 0 300px;
+  float: left;
+}
+footer #social {
+  width: 200px;
+  margin: 50px 50px 0 0;
+  float: right;
+}
+footer #social img {
+  margin: 0 7px;
+}
+#ffont1 {
+  font-size: 13px;
+  color: #9e9e9e;
+}
+#ffont2 {
+  font-size: 11px;
+  color: #9e9e9e;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ----------------------------------- */
